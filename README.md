@@ -1,2 +1,2 @@
 # AttractionRun-build
-Play link:
+Play link: https://indigames.github.io/AttractionRun-build/
