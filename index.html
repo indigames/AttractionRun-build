@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build.loader.js";
+      var loaderUrl = buildUrl + "/AttractionRun-build.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build.data",
-        frameworkUrl: buildUrl + "/Build.framework.js",
-        codeUrl: buildUrl + "/Build.wasm",
+        dataUrl: buildUrl + "/AttractionRun-build.data",
+        frameworkUrl: buildUrl + "/AttractionRun-build.framework.js",
+        codeUrl: buildUrl + "/AttractionRun-build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "AttractionsRun",
@@ -97,6 +97,7 @@
         canvas.style.height = "960px";
       }
 
+      canvas.style.background = "url('" + buildUrl + "/AttractionRun-build.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
